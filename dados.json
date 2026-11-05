@@ -1,0 +1,190 @@
+{
+  "cv": {
+    "metadata": {
+      "version": "1.3",
+      "language": "pt-BR",
+      "lastUpdated": "2026-11-05"
+    },
+    "personalInformation": {
+      "fullName": "Pedro Henrique Marques Silva",
+      "professionalTitle": "Estudante de Análise e Desenvolvimento de Sistemas",
+      "profilePhoto": "",
+      "email": "p2.hmarques@gmail.com",
+      "phone": "(11) 91480-8694",
+      "whatsapp": "",
+      "location": {
+        "city": "Suzano",
+        "state": "SP",
+        "country": "Brasil",
+        "address": "",
+        "neighborhood": ""
+      },
+      "linkedin": "",
+      "github": "https://github.com/p2hmarques-gif",
+      "portfolio": "",
+      "website": "",
+      "preferredName": "",
+      "secondaryEmail": "",
+      "professionalRegistration": ""
+    },
+    "professionalSummary": {
+      "description": "",
+      "yearsOfExperience": 0,
+      "mainSpecialization": "",
+      "careerObjective": "",
+      "areaOfInterest": "",
+      "keyCompetencies": [],
+      "careerHighlights": []
+    },
+    "professionalExperience": [
+      {
+        "company": "",
+        "position": "",
+        "employmentType": "",
+        "location": "",
+        "startDate": "",
+        "endDate": "",
+        "current": false,
+        "description": "",
+        "responsibilities": [],
+        "achievements": [],
+        "technologies": [],
+        "department": "",
+        "workModel": "",
+        "metrics": [],
+        "projectLinks": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "UniPiaget",
+        "degree": "Análise e Desenvolvimento de Sistemas",
+        "fieldOfStudy": "",
+        "level": "Graduação",
+        "startDate": "2026",
+        "endDate": "",
+        "current": true,
+        "description": "",
+        "campus": "",
+        "semester": "",
+        "expectedGraduation": "",
+        "relevantSubjects": [],
+        "academicActivities": []
+      }
+    ],
+    "skills": {
+      "technical": [
+        {
+          "name": "",
+          "level": ""
+        }
+      ],
+      "behavioral": [],
+      "tools": [],
+      "methodologies": [],
+      "programmingLanguages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [],
+      "operatingSystems": []
+    },
+    "languages": [
+      {
+        "name": "",
+        "proficiency": "",
+        "certification": ""
+      }
+    ],
+    "certifications": [
+      {
+        "name": "",
+        "issuer": "",
+        "issueDate": "",
+        "expirationDate": "",
+        "credentialUrl": "",
+        "credentialId": "",
+        "skills": []
+      }
+    ],
+    "projects": [
+      {
+        "name": "",
+        "description": "",
+        "role": "",
+        "technologies": [],
+        "url": "",
+        "startDate": "",
+        "endDate": "",
+        "repositoryUrl": "",
+        "demoUrl": "",
+        "highlights": []
+      }
+    ],
+    "courses": [
+      {
+        "name": "",
+        "institution": "",
+        "completionDate": "",
+        "workloadHours": 0,
+        "description": "",
+        "certificateUrl": ""
+      }
+    ],
+    "volunteerExperience": [
+      {
+        "organization": "",
+        "role": "",
+        "startDate": "",
+        "endDate": "",
+        "current": false,
+        "description": "",
+        "achievements": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "",
+        "issuer": "",
+        "date": "",
+        "description": ""
+      }
+    ],
+    "publications": [
+      {
+        "title": "",
+        "publisher": "",
+        "date": "",
+        "url": "",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "name": "",
+        "role": "",
+        "institution": "",
+        "date": "",
+        "description": ""
+      }
+    ],
+    "additionalInformation": {
+      "availability": "",
+      "workModel": "",
+      "travelAvailability": false,
+      "additionalNotes": "",
+      "drivingLicense": "",
+      "relocationAvailability": false,
+      "professionalInterests": [],
+      "communityInvolvement": []
+    },
+    "preferences": {
+      "targetPositions": [],
+      "targetIndustries": [],
+      "preferredLocations": [],
+      "preferredWorkModel": "",
+      "contractTypes": [],
+      "jobLevel": "",
+      "workSchedule": ""
+    }
+  }
+}

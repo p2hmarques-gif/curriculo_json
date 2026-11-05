@@ -1,0 +1,2 @@
+Opcional: coloque sua foto nesta pasta e defina profilePhoto como "imagens/foto.jpg" no dados.json.
+Também é possível selecionar uma foto no painel Editar dados.

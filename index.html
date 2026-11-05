@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Currículo profissional de Pedro Henrique Marques Silva">
+  <title>Pedro Henrique Marques Silva | Currículo</title>
+  <link rel="stylesheet" href="./style.css">
+  <script id="dados-iniciais" type="application/json">{
+  "cv": {
+    "metadata": {
+      "version": "1.3",
+      "language": "pt-BR",
+      "lastUpdated": "2026-11-05"
+    },
+    "personalInformation": {
+      "fullName": "Pedro Henrique Marques Silva",
+      "professionalTitle": "Estudante de Análise e Desenvolvimento de Sistemas",
+      "profilePhoto": "",
+      "email": "p2.hmarques@gmail.com",
+      "phone": "(11) 91480-8694",
+      "whatsapp": "",
+      "location": {
+        "city": "Suzano",
+        "state": "SP",
+        "country": "Brasil",
+        "address": "",
+        "neighborhood": ""
+      },
+      "linkedin": "",
+      "github": "https://github.com/p2hmarques-gif",
+      "portfolio": "",
+      "website": "",
+      "preferredName": "",
+      "secondaryEmail": "",
+      "professionalRegistration": ""
+    },
+    "professionalSummary": {
+      "description": "",
+      "yearsOfExperience": 0,
+      "mainSpecialization": "",
+      "careerObjective": "",
+      "areaOfInterest": "",
+      "keyCompetencies": [],
+      "careerHighlights": []
+    },
+    "professionalExperience": [
+      {
+        "company": "",
+        "position": "",
+        "employmentType": "",
+        "location": "",
+        "startDate": "",
+        "endDate": "",
+        "current": false,
+        "description": "",
+        "responsibilities": [],
+        "achievements": [],
+        "technologies": [],
+        "department": "",
+        "workModel": "",
+        "metrics": [],
+        "projectLinks": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "UniPiaget",
+        "degree": "Análise e Desenvolvimento de Sistemas",
+        "fieldOfStudy": "",
+        "level": "Graduação",
+        "startDate": "2026",
+        "endDate": "",
+        "current": true,
+        "description": "",
+        "campus": "",
+        "semester": "",
+        "expectedGraduation": "",
+        "relevantSubjects": [],
+        "academicActivities": []
+      }
+    ],
+    "skills": {
+      "technical": [
+        {
+          "name": "",
+          "level": ""
+        }
+      ],
+      "behavioral": [],
+      "tools": [],
+      "methodologies": [],
+      "programmingLanguages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [],
+      "operatingSystems": []
+    },
+    "languages": [
+      {
+        "name": "",
+        "proficiency": "",
+        "certification": ""
+      }
+    ],
+    "certifications": [
+      {
+        "name": "",
+        "issuer": "",
+        "issueDate": "",
+        "expirationDate": "",
+        "credentialUrl": "",
+        "credentialId": "",
+        "skills": []
+      }
+    ],
+    "projects": [
+      {
+        "name": "",
+        "description": "",
+        "role": "",
+        "technologies": [],
+        "url": "",
+        "startDate": "",
+        "endDate": "",
+        "repositoryUrl": "",
+        "demoUrl": "",
+        "highlights": []
+      }
+    ],
+    "courses": [
+      {
+        "name": "",
+        "institution": "",
+        "completionDate": "",
+        "workloadHours": 0,
+        "description": "",
+        "certificateUrl": ""
+      }
+    ],
+    "volunteerExperience": [
+      {
+        "organization": "",
+        "role": "",
+        "startDate": "",
+        "endDate": "",
+        "current": false,
+        "description": "",
+        "achievements": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "",
+        "issuer": "",
+        "date": "",
+        "description": ""
+      }
+    ],
+    "publications": [
+      {
+        "title": "",
+        "publisher": "",
+        "date": "",
+        "url": "",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "name": "",
+        "role": "",
+        "institution": "",
+        "date": "",
+        "description": ""
+      }
+    ],
+    "additionalInformation": {
+      "availability": "",
+      "workModel": "",
+      "travelAvailability": false,
+      "additionalNotes": "",
+      "drivingLicense": "",
+      "relocationAvailability": false,
+      "professionalInterests": [],
+      "communityInvolvement": []
+    },
+    "preferences": {
+      "targetPositions": [],
+      "targetIndustries": [],
+      "preferredLocations": [],
+      "preferredWorkModel": "",
+      "contractTypes": [],
+      "jobLevel": "",
+      "workSchedule": ""
+    }
+  }
+}</script>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="barra-ferramentas">
+    <div class="container ferramentas-conteudo">
+      <a href="#topo" class="marca"><span class="marca-icone">PM</span><span>Meu currículo<span class="marca-ponto">.</span></span></a>
+      <div class="ferramentas-acoes">
+        <button id="btn-editar" class="btn btn-secundario" type="button" aria-expanded="false" aria-controls="painel-edicao">Editar dados</button>
+        <label for="arquivo-json" class="btn btn-discreto">Importar JSON</label>
+        <input id="arquivo-json" type="file" accept=".json,application/json" hidden>
+        <button id="btn-imprimir" class="btn btn-principal" type="button">Salvar PDF</button>
+      </div>
+    </div>
+  </div>
+
+  <svg class="simbolos" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icone-whatsapp" viewBox="0 0 24 24">
+      <path d="M12.05 2.05a9.85 9.85 0 0 0-8.46 14.9L2.3 21.7l4.88-1.28a9.86 9.86 0 1 0 4.87-18.37Z" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linejoin="round" />
+      <path d="M8.36 7.66c-.28-.37-.54-.38-.82-.36-.25.02-.53.09-.81.38-.28.3-1.06 1.03-1.06 2.52 0 1.49 1.09 2.93 1.24 3.13.15.2 2.14 3.43 5.28 4.67 2.61 1.03 3.14.82 3.71.77.57-.06 1.84-.75 2.1-1.47.25-.72.25-1.34.17-1.47-.09-.12-.31-.2-.65-.38-.34-.17-2.03-1-2.35-1.12-.32-.11-.55-.17-.78.18-.23.34-.9 1.12-1.11 1.35-.2.23-.41.26-.75.09-.34-.17-1.43-.53-2.73-1.69-1.01-.9-1.69-2.01-1.89-2.35-.2-.35-.02-.53.15-.7.16-.15.35-.41.52-.61.18-.2.23-.35.35-.58.11-.23.06-.44-.03-.61-.09-.17-.79-1.9-1.08-2.6Z" transform="translate(1.1 -.35) scale(.88)" fill="currentColor" />
+    </symbol>
+  </svg>
+
+  <section id="painel-edicao" class="edicao" hidden aria-label="Painel de edição do currículo">
+    <div class="container edicao-interior">
+      <div class="edicao-topo">
+        <div>
+          <p class="sobretitulo">PERSONALIZAÇÃO</p>
+          <h2>Preencha suas informações</h2>
+          <p>Complete os campos quando desejar. As mudanças são aplicadas à prévia e podem ser exportadas em JSON e HTML, para funcionarem também sem servidor.</p>
+        </div>
+        <button id="btn-fechar-edicao" class="btn btn-discreto" type="button">Fechar</button>
+      </div>
+      <form id="form-edicao" class="form-edicao">
+        <fieldset>
+          <legend>Identificação e contatos</legend>
+          <div class="grade-form">
+            <label>Nome completo<input data-path="personalInformation.fullName" autocomplete="name"></label>
+            <label>Título profissional<input data-path="personalInformation.professionalTitle"></label>
+            <label>E-mail<input data-path="personalInformation.email" type="email" autocomplete="email"></label>
+            <label>Telefone<input data-path="personalInformation.phone" autocomplete="tel"></label>
+            <label>WhatsApp com DDD<input data-path="personalInformation.whatsapp" inputmode="tel" placeholder="Ex.: 11999999999"></label>
+            <label>LinkedIn (URL)<input data-path="personalInformation.linkedin" type="url" placeholder="https://linkedin.com/in/..."></label>
+            <label>GitHub (URL)<input data-path="personalInformation.github" type="url" placeholder="https://github.com/..."></label>
+            <label>Portfólio (URL)<input data-path="personalInformation.portfolio" type="url" placeholder="https://meuportfolio.com"></label>
+            <label>Site profissional (URL)<input data-path="personalInformation.website" type="url" placeholder="https://meusite.com"></label>
+            <label>Bairro (opcional)<input data-path="personalInformation.location.neighborhood"></label>
+            <label>Foto profissional (URL ou caminho)<input data-path="personalInformation.profilePhoto" placeholder="imagens/foto.jpg"></label>
+            <label class="campo-largo">Selecionar uma foto do dispositivo <input id="arquivo-foto" type="file" accept="image/png,image/jpeg,image/webp"></label>
+            <label>Cidade<input data-path="personalInformation.location.city"></label>
+            <label>Estado<input data-path="personalInformation.location.state"></label>
+            <label>Nome de preferência<input data-path="personalInformation.preferredName"></label>
+            <label>Registro profissional<input data-path="personalInformation.professionalRegistration"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Perfil e objetivo</legend>
+          <div class="grade-form">
+            <label class="campo-largo">Apresentação profissional<textarea data-path="professionalSummary.description" rows="3" placeholder="Breve descrição profissional"></textarea></label>
+            <label class="campo-largo">Objetivo profissional<textarea data-path="professionalSummary.careerObjective" rows="2"></textarea></label>
+            <label>Especialização principal<input data-path="professionalSummary.mainSpecialization"></label>
+            <label>Área de interesse<input data-path="professionalSummary.areaOfInterest"></label>
+            <label class="campo-largo">Principais competências (uma por linha)<textarea data-path="professionalSummary.keyCompetencies" data-list="true" rows="3"></textarea></label>
+            <label class="campo-largo">Destaques de carreira (um por linha)<textarea data-path="professionalSummary.careerHighlights" data-list="true" rows="3"></textarea></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Formação acadêmica</legend>
+          <p class="ajuda">Estes campos editam a primeira formação do JSON. Para adicionar outras formações, utilize o editor completo abaixo.</p>
+          <div class="grade-form">
+            <label>Instituição<input data-path="education.0.institution"></label>
+            <label>Curso<input data-path="education.0.degree"></label>
+            <label>Nível<input data-path="education.0.level"></label>
+            <label>Ano / data de início<input data-path="education.0.startDate" placeholder="AAAA ou AAAA-MM"></label>
+            <label>Previsão de conclusão<input data-path="education.0.expectedGraduation" placeholder="AAAA ou AAAA-MM"></label>
+            <label>Semestre<input data-path="education.0.semester"></label>
+            <label class="campo-largo">Disciplinas relevantes (uma por linha)<textarea data-path="education.0.relevantSubjects" data-list="true" rows="3"></textarea></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Competências e disponibilidade</legend>
+          <div class="grade-form">
+            <label>Linguagens de programação (uma por linha)<textarea data-path="skills.programmingLanguages" data-list="true" rows="3"></textarea></label>
+            <label>Ferramentas (uma por linha)<textarea data-path="skills.tools" data-list="true" rows="3"></textarea></label>
+            <label>Frameworks (um por linha)<textarea data-path="skills.frameworks" data-list="true" rows="3"></textarea></label>
+            <label>Bancos de dados (um por linha)<textarea data-path="skills.databases" data-list="true" rows="3"></textarea></label>
+            <label>Competências comportamentais (uma por linha)<textarea data-path="skills.behavioral" data-list="true" rows="3"></textarea></label>
+            <label>Metodologias (uma por linha)<textarea data-path="skills.methodologies" data-list="true" rows="3"></textarea></label>
+            <label>Disponibilidade<input data-path="additionalInformation.availability"></label>
+            <label>Modelo de trabalho<input data-path="additionalInformation.workModel"></label>
+            <label>CNH (categoria)<input data-path="additionalInformation.drivingLicense"></label>
+            <label class="campo-largo">Outras informações<textarea data-path="additionalInformation.additionalNotes" rows="2"></textarea></label>
+          </div>
+        </fieldset>
+        <div class="acoes-editor">
+          <button class="btn btn-principal" type="submit">Aplicar alterações</button>
+          <button class="btn btn-secundario" id="btn-baixar-json" type="button">Baixar JSON atualizado</button>
+          <button class="btn btn-discreto" id="btn-baixar-html" type="button">Baixar HTML atualizado</button>
+          <span id="status-edicao" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+      <details class="editor-avancado">
+        <summary>Editor JSON completo — experiências, projetos, cursos e demais campos</summary>
+        <p>Para editar todos os campos e acrescentar novos registros, altere o conteúdo abaixo e clique em Aplicar JSON.</p>
+        <label for="json-texto" class="sr-only">Código JSON completo</label>
+        <textarea id="json-texto" rows="14" spellcheck="false" aria-label="Código JSON completo"></textarea>
+        <div class="acoes-editor">
+          <button id="btn-aplicar-json" type="button" class="btn btn-secundario">Aplicar JSON</button>
+          <span id="status-json" role="status" aria-live="polite"></span>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <div id="status" class="container status" role="status" aria-live="polite" hidden></div>
+
+  <main id="topo" class="container pagina">
+    <header class="cabecalho-cv">
+      <div class="cabecalho-topo">
+        <div class="foto-container">
+          <img id="foto" class="foto" alt="Foto profissional" hidden>
+          <div id="avatar" class="avatar" aria-hidden="true">PM</div>
+        </div>
+        <div class="identificacao">
+          <p class="categoria">PERFIL PROFISSIONAL</p>
+          <h1 id="nome">Seu nome</h1>
+          <p id="cargo" class="cargo"></p>
+          <p id="localizacao" class="localizacao"></p>
+        </div>
+      </div>
+      <div id="contatos" class="contatos" aria-label="Contatos profissionais">
+        <span id="whatsapp-contato" class="contato contato-whatsapp inativo" aria-label="WhatsApp ainda não cadastrado" title="WhatsApp: número não informado">
+          <svg class="contato-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 11.8a8.2 8.2 0 0 1-12.4 7l-4.1 1.1 1.1-4A8.2 8.2 0 1 1 20 11.8Z"/><path d="M8 8.6c.2-.5.6-.6.9-.3l1.2 1.2c.2.3.2.6 0 .8l-.6.7c.6 1.2 1.6 2.2 2.8 2.8l.6-.6c.3-.2.6-.2.9 0l1.2 1.2c.3.3.2.7-.3.9-1 .5-2.2.3-3.7-.6-1.6-.9-2.9-2.2-3.8-3.8-.9-1.5-1.1-2.7-.6-3.7Z"/></svg>
+          <span>WhatsApp <small>não cadastrado</small></span>
+        </span>
+      </div>
+    </header>
+
+    <div class="conteudo-cv">
+      <div class="coluna-principal">
+        <section id="sec-resumo" class="secao" hidden><h2>Perfil e objetivo</h2><div id="resumo"></div></section>
+        <section id="sec-experiencias" class="secao" hidden><h2>Experiência profissional</h2><div id="experiencias"></div></section>
+        <section id="sec-projetos" class="secao" hidden><h2>Projetos e portfólio</h2><div id="projetos"></div></section>
+        <section id="sec-formacao" class="secao" hidden><h2>Formação acadêmica</h2><div id="formacao"></div></section>
+        <section id="sec-voluntariado" class="secao" hidden><h2>Trabalho voluntário</h2><div id="voluntariado"></div></section>
+        <section id="sec-publicacoes" class="secao" hidden><h2>Publicações</h2><div id="publicacoes"></div></section>
+      </div>
+      <aside class="coluna-lateral" aria-label="Informações complementares">
+        <section id="sec-habilidades" class="secao" hidden><h2>Competências</h2><div id="habilidades"></div></section>
+        <section id="sec-idiomas" class="secao" hidden><h2>Idiomas</h2><div id="idiomas"></div></section>
+        <section id="sec-certificacoes" class="secao" hidden><h2>Certificações</h2><div id="certificacoes"></div></section>
+        <section id="sec-cursos" class="secao" hidden><h2>Cursos adicionais</h2><div id="cursos"></div></section>
+        <section id="sec-premios" class="secao" hidden><h2>Prêmios e reconhecimentos</h2><div id="premios"></div></section>
+        <section id="sec-eventos" class="secao" hidden><h2>Eventos e participação</h2><div id="eventos"></div></section>
+        <section id="sec-adicionais" class="secao" hidden><h2>Outras informações</h2><div id="adicionais"></div></section>
+        <section id="sec-preferencias" class="secao" hidden><h2>Preferências profissionais</h2><div id="preferencias"></div></section>
+      </aside>
+    </div>
+
+    <details id="campos-disponiveis" class="campos-disponiveis">
+      <summary>Campos adicionais disponíveis para preencher <span class="seta">⌄</span></summary>
+      <p>WhatsApp, LinkedIn, foto profissional, portfólio, site e bairro continuam em branco; o GitHub já está cadastrado. Há também campos para objetivo, experiências, projetos, habilidades e mais. Campos não preenchidos não aparecem na impressão.</p>
+      <div class="lista-campos">
+        <span>WhatsApp</span><span>LinkedIn</span><span>Foto profissional</span><span>GitHub cadastrado</span><span>Portfólio</span><span>Site profissional</span><span>Bairro</span><span>Objetivo profissional</span><span>Resumo e destaques</span><span>Experiências e resultados</span>
+        <span>Projetos e repositórios</span><span>Linguagens e frameworks</span><span>Bancos de dados</span>
+        <span>Disciplinas e atividades acadêmicas</span><span>Idiomas</span><span>Certificados</span>
+        <span>Cursos complementares</span><span>Trabalho voluntário</span><span>Publicações</span>
+        <span>Prêmios</span><span>Eventos</span><span>Disponibilidade</span><span>Preferências de trabalho</span>
+      </div>
+      <button id="btn-editar-inferior" type="button" class="btn btn-secundario">Preencher informações</button>
+    </details>
+
+    <footer class="rodape"><span id="atualizacao"></span><span>Currículo profissional · HTML, CSS, JavaScript e JSON</span></footer>
+  </main>
+</body>
+</html>
